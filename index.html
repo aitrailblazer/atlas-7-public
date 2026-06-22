@@ -40,6 +40,11 @@
     const changelogEntries = [
       {
         date: '2026-06-22',
+        title: 'Join instructions made explicit',
+        body: 'Promoted the membership-to-GitHub flow into a clearer three-step path for both new and existing Alpha members.',
+      },
+      {
+        date: '2026-06-22',
         title: 'Borrowed ATLAS quick-link patterns',
         body: 'Added the agent-surface quick links and a contents panel so the public page feels closer to the ATLAS Codex front-page navigation style.',
       },
@@ -254,6 +259,26 @@
           margin-top: 22px;
         }
 
+        .join-strip {
+          display: grid;
+          gap: 10px;
+          margin-top: 18px;
+          padding: 16px 18px;
+          border: 1px solid rgba(255, 154, 26, 0.24);
+          border-radius: 18px;
+          background: rgba(17, 16, 15, 0.64);
+        }
+
+        .join-strip strong {
+          color: #ffd7af;
+          font-size: 15px;
+        }
+
+        .join-strip span {
+          color: #d7c7bc;
+          font-size: 14px;
+        }
+
         .agent-links {
           display: flex;
           flex-wrap: wrap;
@@ -367,6 +392,57 @@
         .proof-item span {
           color: #cbb9ae;
           font-size: 14px;
+        }
+
+        .join-steps {
+          display: grid;
+          gap: 12px;
+          margin-top: 14px;
+        }
+
+        .join-step {
+          display: grid;
+          grid-template-columns: 34px minmax(0, 1fr);
+          gap: 12px;
+          align-items: start;
+          padding-top: 12px;
+          border-top: 1px solid rgba(255, 154, 26, 0.16);
+        }
+
+        .join-step:first-child {
+          border-top: 0;
+          padding-top: 0;
+        }
+
+        .join-step-number {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 34px;
+          height: 34px;
+          border-radius: 999px;
+          border: 1px solid rgba(255, 154, 26, 0.4);
+          color: #120d0a;
+          background: linear-gradient(90deg, #ff9a1a, #ff5f2e);
+          font-size: 14px;
+          font-weight: 800;
+        }
+
+        .join-step strong {
+          display: block;
+          margin-bottom: 4px;
+          font-size: 15px;
+        }
+
+        .join-step span {
+          color: #cbb9ae;
+          font-size: 14px;
+        }
+
+        .member-note {
+          margin-top: 14px;
+          color: #ad9a8e;
+          font-size: 13px;
         }
 
         .section-grid {
@@ -553,6 +629,10 @@
                       <a class="cta cta-primary" href="https://deltasignal.substack.com" target="_blank" rel="noreferrer">Join DeltaSignal Alpha</a>
                       <a class="cta cta-secondary" href="https://github.com/aitrailblazer/ATLAS-7" target="_blank" rel="noreferrer">Private Repo Destination</a>
                     </div>
+                    <div class="join-strip">
+                      <strong>How to join</strong>
+                      <span>1. Join DeltaSignal Alpha. 2. Reply with your GitHub username or GitHub account email. 3. Accept the invite to the private `ATLAS-7` repo.</span>
+                    </div>
                     <div class="agent-links">
                       <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Claude Code</a>
                       <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Codex</a>
@@ -562,21 +642,31 @@
                   </div>
 
                   <aside class="hero-panel">
-                    <div class="panel-label">Inside The Private Repo</div>
-                    <div class="proof-list">
-                      <div class="proof-item">
-                        <strong>Playbooks</strong>
-                        <span>Reusable operating loops, diagrams, prompt packs, and implementation guides.</span>
+                    <div class="panel-label">How To Get Access</div>
+                    <div class="join-steps">
+                      <div class="join-step">
+                        <div class="join-step-number">1</div>
+                        <div>
+                          <strong>Join DeltaSignal Alpha</strong>
+                          <span>Start with the membership path. That is the gate for private repo access.</span>
+                        </div>
                       </div>
-                      <div class="proof-item">
-                        <strong>MCP workflows</strong>
-                        <span>Patterns for agent-driven research, reporting, and structured execution.</span>
+                      <div class="join-step">
+                        <div class="join-step-number">2</div>
+                        <div>
+                          <strong>Send your GitHub details</strong>
+                          <span>Reply with your GitHub username or the email tied to your GitHub account so the invite lands in the right place.</span>
+                        </div>
                       </div>
-                      <div class="proof-item">
-                        <strong>Member docs</strong>
-                        <span>Onboarding, access flow, support paths, and the current changelog of what is shipping.</span>
+                      <div class="join-step">
+                        <div class="join-step-number">3</div>
+                        <div>
+                          <strong>Accept the invite</strong>
+                          <span>Once the invitation arrives, accept it and the private `ATLAS-7` repo unlocks on GitHub.</span>
+                        </div>
                       </div>
                     </div>
+                    <div class="member-note">Already an Alpha member? Skip straight to step 2 and send your GitHub username.</div>
                   </aside>
                 </div>
                 <div class="toc-panel">
@@ -637,6 +727,10 @@
                 <section id="access-flow" class="panel">
                   <div class="label">Private GitHub Access</div>
                   <h2>How the repo unlock works</h2>
+                  <p>
+                    The path is simple: membership first, GitHub handoff second, invite acceptance third.
+                    If you are already an Alpha member, you only need to send your GitHub username or GitHub account email to receive the invite.
+                  </p>
                   <ul class="list-tight">
                     <li>Join the DeltaSignal Alpha membership path.</li>
                     <li>Send the GitHub username or email attached to the account that should receive access.</li>

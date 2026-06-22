@@ -33,12 +33,16 @@ This public repo also includes the current QA tracker outputs:
 
 ## Access
 
-ATLAS-7 is private. To get access:
+ATLAS-7 is private. The public repo is the front door, not the member materials.
 
-- join DeltaSignal via [deltasignal.substack.com](https://deltasignal.substack.com)
-- send your GitHub username or the email attached to your GitHub account
-- accept the GitHub invitation when it arrives
-- then access the private repository directly on GitHub
+How to join:
+
+1. Join DeltaSignal Alpha via [deltasignal.substack.com](https://deltasignal.substack.com)
+2. Send your GitHub username or the email attached to your GitHub account
+3. Accept the GitHub invitation when it arrives
+4. Open the private `ATLAS-7` repository on GitHub
+
+If you are already an Alpha member, skip straight to step 2.
 
 ## Private GitHub Access
 
