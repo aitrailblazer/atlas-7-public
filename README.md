@@ -65,7 +65,7 @@ ATLAS-7 is private. The public repo is the front door, not the member materials.
 
 How to join:
 
-- Join Alpha: [deltasignal.substack.com](https://deltasignal.substack.com/)
+- Join Alpha: [How to join Alpha Circle](https://substack.com/@deltasignalai/p-179433731)
 - Send a DM on [Substack Chat](https://substack.com/chat) or [X @AITrailblazerQ](https://x.com/AITrailblazerQ) with your GitHub username or the email attached to your GitHub account
 - Accept the GitHub invitation when it arrives
 - Open the private `ATLAS-7` repository on GitHub
@@ -82,8 +82,8 @@ The referral loop is for serious operators bringing in other serious operators.
 
 ## Join Links
 
-- Join DeltaSignal: [deltasignal.substack.com](https://deltasignal.substack.com/)
-- Read the Alpha Circle note: [substack.com/@deltasignalai/p-179433731](https://substack.com/@deltasignalai/p-179433731)
+- How to join Alpha Circle: [substack.com/@deltasignalai/p-179433731](https://substack.com/@deltasignalai/p-179433731)
+- DeltaSignal Substack: [deltasignal.substack.com](https://deltasignal.substack.com/)
 - Message on X: [x.com/AITrailblazerQ](https://x.com/AITrailblazerQ)
 
 ## Private GitHub Access
@@ -92,7 +92,7 @@ Private GitHub access is granted after membership confirmation.
 
 Recommended flow:
 
-1. Join Alpha via [deltasignal.substack.com](https://deltasignal.substack.com/)
+1. Join Alpha via [How to join Alpha Circle](https://substack.com/@deltasignalai/p-179433731)
 2. Send a Substack Chat DM or an X DM to [@AITrailblazerQ](https://x.com/AITrailblazerQ) with your GitHub username or GitHub account email
 3. Receive a private repository or organization invitation
 4. Accept the invitation
