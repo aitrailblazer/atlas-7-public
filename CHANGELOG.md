@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Wired the Contents links to explicit in-component scrolling so they land on the intended section headings inside the Lit page.
 - Corrected the hero access-step wording so the Alpha Circle note is described as the join guide rather than the membership gateway itself.
 - Removed the X DM option from the public access handoff and left Substack Chat as the only GitHub-details path.
 - Switched the public repo's main Alpha path back to the exact Alpha Circle note URL provided by the operator.

@@ -612,6 +612,20 @@ var changelogEntries = [
   }
 ];
 var AtlasSevenPublic = class extends i4 {
+  handleTocClick(event) {
+    const href = event.currentTarget.getAttribute("href") ?? "";
+    if (!href.startsWith("#")) {
+      return;
+    }
+    event.preventDefault();
+    const id = href.slice(1);
+    const target = this.renderRoot?.querySelector(`#${id}`);
+    if (!target) {
+      return;
+    }
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.history.replaceState(null, "", `#${id}`);
+  }
   static styles = i`
     :host {
       display: block;
@@ -631,6 +645,10 @@ var AtlasSevenPublic = class extends i4 {
       width: min(1120px, calc(100vw - 32px));
       margin: 0 auto;
       padding: 20px 0 56px;
+    }
+
+    section[id] {
+      scroll-margin-top: 24px;
     }
 
     .hero {
@@ -1269,13 +1287,13 @@ var AtlasSevenPublic = class extends i4 {
             <div class="toc-panel">
               <div class="toc-title">Contents</div>
               <div class="toc-links">
-                <a href="#what-you-get">What You Get</a>
-                <a href="#alpha-circle">Alpha Circle</a>
-                <a href="#referrals">Referral System</a>
-                <a href="#join-links">Join Links</a>
-                <a href="#access-flow">Access Flow</a>
-                <a href="#private-areas">Private Areas</a>
-                <a href="#public-changelog">Public Changelog</a>
+                <a href="#what-you-get" @click=${this.handleTocClick}>What You Get</a>
+                <a href="#alpha-circle" @click=${this.handleTocClick}>Alpha Circle</a>
+                <a href="#referrals" @click=${this.handleTocClick}>Referral System</a>
+                <a href="#join-links" @click=${this.handleTocClick}>Join Links</a>
+                <a href="#access-flow" @click=${this.handleTocClick}>Access Flow</a>
+                <a href="#private-areas" @click=${this.handleTocClick}>Private Areas</a>
+                <a href="#public-changelog" @click=${this.handleTocClick}>Public Changelog</a>
               </div>
             </div>
           </div>
