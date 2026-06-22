@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATLAS-7</title>
+  <meta name="description" content="Public landing page for the private ATLAS-7 Alpha repository.">
+  <style>
+    html {
+      background: #071018;
+      color: #f6f0e7;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+    body { margin: 0; min-height: 100vh; }
+    atlas-seven-public:not(:defined) { display: block; padding: 32px; }
+  </style>
+</head>
+<body>
+  <atlas-seven-public></atlas-seven-public>
+
+  <script type="module">
+    import { LitElement, css, html } from 'https://unpkg.com/lit@3/index.js?module';
+
+    class AtlasSevenPublic extends LitElement {
+      static styles = css`
+        :host {
+          display: block;
+          min-height: 100vh;
+          background:
+            radial-gradient(circle at 10% 0%, rgba(255, 177, 66, 0.15), transparent 28%),
+            radial-gradient(circle at 100% 12%, rgba(63, 124, 255, 0.18), transparent 22%),
+            linear-gradient(180deg, #071018 0%, #0a1320 100%);
+        }
+        main {
+          width: min(1180px, calc(100vw - 32px));
+          margin: 0 auto;
+          padding: 28px 0 56px;
+        }
+        .hero, .panel, .card {
+          border: 1px solid rgba(255, 255, 255, 0.12);
+          background: rgba(11, 18, 28, 0.84);
+          border-radius: 24px;
+          box-shadow: 0 28px 90px rgba(0, 0, 0, 0.28);
+        }
+        .hero {
+          padding: 28px;
+          display: grid;
+          grid-template-columns: 1.1fr 0.9fr;
+          gap: 18px;
+          align-items: center;
+        }
+        .eyebrow, .label {
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 800;
+          letter-spacing: 0.16em;
+        }
+        .eyebrow { color: #ffb24f; }
+        .label { color: #8fb7ff; }
+        h1 {
+          margin: 8px 0 12px;
+          font-size: clamp(42px, 8vw, 84px);
+          line-height: 0.92;
+          letter-spacing: -0.06em;
+        }
+        h2 {
+          margin: 0 0 12px;
+          font-size: 28px;
+          line-height: 1;
+          letter-spacing: -0.04em;
+        }
+        p {
+          margin: 0;
+          color: rgba(246, 240, 231, 0.82);
+        }
+        .hero-copy p + p { margin-top: 12px; }
+        .hero-image {
+          display: block;
+          width: 100%;
+          border-radius: 22px;
+          border: 1px solid rgba(255, 255, 255, 0.12);
+          box-shadow: 0 20px 70px rgba(0, 0, 0, 0.3);
+          background: rgba(255, 255, 255, 0.04);
+        }
+        .cta-row {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 12px;
+          margin-top: 18px;
+        }
+        .cta {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 46px;
+          padding: 0 18px;
+          border-radius: 999px;
+          text-decoration: none;
+          font-weight: 700;
+          border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+        .cta-primary {
+          background: linear-gradient(135deg, #ffb24f, #ffd48a);
+          color: #10161f;
+        }
+        .cta-secondary {
+          background: rgba(255, 255, 255, 0.04);
+          color: #f6f0e7;
+        }
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 16px;
+          margin-top: 18px;
+        }
+        .panel, .card { padding: 22px; }
+        ul {
+          margin: 12px 0 0;
+          padding-left: 18px;
+          color: rgba(246, 240, 231, 0.82);
+        }
+        .note {
+          margin-top: 12px;
+          font-size: 13px;
+          color: rgba(246, 240, 231, 0.66);
+        }
+        @media (max-width: 920px) {
+          .hero, .grid { grid-template-columns: 1fr; }
+        }
+      `;
+
+      render() {
+        return html`
+          <main>
+            <section class="hero">
+              <div class="hero-copy">
+                <div class="eyebrow">ATLAS-7</div>
+                <h1>Private intelligence for DeltaSignal Alpha members.</h1>
+                <p>
+                  ATLAS-7 is the private research and workflow layer behind DeltaSignal. It is built for people who want
+                  more than generic prompts: structured playbooks, reusable frameworks, MCP-oriented operating patterns,
+                  and member-only research assets.
+                </p>
+                <p>
+                  The full repository is private. This public page exists to show what ATLAS-7 is and direct serious users
+                  toward membership and private access.
+                </p>
+                <div class="cta-row">
+                  <a class="cta cta-primary" href="https://deltasignal.substack.com" target="_blank" rel="noreferrer">Join DeltaSignal</a>
+                  <a class="cta cta-secondary" href="https://github.com/aitrailblazer/ATLAS-7" target="_blank" rel="noreferrer">View Private Repo</a>
+                </div>
+                <div class="note">The private repo is member-only. Access is granted after joining the Alpha membership flow.</div>
+              </div>
+              <img class="hero-image" src="cover.png" alt="Feature QA Loop teaser image from the private ATLAS-7 playbook library">
+            </section>
+
+            <section class="grid">
+              <article class="card">
+                <div class="label">What You Get</div>
+                <h2>Structured systems</h2>
+                <p>ATLAS-7 includes reusable prompting systems, research templates, MCP-oriented workflows, and member-only playbooks that make analysis more repeatable.</p>
+                <ul>
+                  <li>Prompt libraries and frameworks</li>
+                  <li>Playbooks with diagrams and copy-paste prompts</li>
+                  <li>Examples for recurring research tasks</li>
+                </ul>
+              </article>
+
+              <article class="card">
+                <div class="label">Who It Is For</div>
+                <h2>Serious operators</h2>
+                <p>This is built for investors, analysts, founders, and advanced AI-tool users who want better process control and higher-signal workflows.</p>
+                <ul>
+                  <li>Alpha members</li>
+                  <li>Independent analysts</li>
+                  <li>Professional investors</li>
+                </ul>
+              </article>
+
+              <article class="card">
+                <div class="label">Access Path</div>
+                <h2>Public to private</h2>
+                <p>The public site explains the offer. The private repo contains the real member materials.</p>
+                <ul>
+                  <li>Public repo: overview and teaser</li>
+                  <li>Private repo: full member content</li>
+                  <li>Membership: unlocks access</li>
+                </ul>
+              </article>
+            </section>
+
+            <section class="panel" style="margin-top:18px;">
+              <div class="label">Current Private Assets</div>
+              <h2>Included inside the private ATLAS-7 repo</h2>
+              <ul>
+                <li>Core prompting docs in `PROMPTING/`</li>
+                <li>MCP workflows and examples in `MCP/`</li>
+                <li>Member reference docs in `RESOURCES/`</li>
+                <li>The Feature QA Loop playbook in `PLAYBOOKS/001-the-feature-qa-loop/`</li>
+              </ul>
+            </section>
+          </main>
+        `;
+      }
+    }
+
+    customElements.define('atlas-seven-public', AtlasSevenPublic);
+  </script>
+</body>
+</html>
