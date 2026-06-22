@@ -8,6 +8,13 @@ Public landing page for the private `ATLAS-7` Alpha repository.
 
 Recent public-facing updates are tracked in [CHANGELOG.md](CHANGELOG.md).
 
+## Public Tracker Outputs
+
+This public repo also includes the current QA tracker outputs:
+
+- `feature_status_tracker.csv`
+- `feature_status_tracker.xlsx`
+
 ## What ATLAS-7 Includes
 
 - private prompting systems
