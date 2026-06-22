@@ -45,6 +45,14 @@ What it unlocks:
 - the deeper operating layer behind the public ATLAS Codex surface
 - advanced deep-dive templates and repeatable research frameworks
 
+## Limited Access
+
+Alpha Circle membership is intentionally kept small.
+
+- access is reserved for early supporters and serious practitioners
+- the public page is open, but the operating layer is private
+- the best fit is investors, analysts, founders, and builders who will actually use the system
+
 ## MCP And ATLAS Codex
 
 The public ATLAS Codex page is the open MCP-facing surface:
@@ -76,6 +84,11 @@ How to join:
 - Open the private `ATLAS-7` repository on GitHub
 
 If you are already an Alpha member, skip straight to step 2 and send your GitHub details through Substack Chat.
+
+## Ready To Join
+
+- [Secure Your Alpha Circle Membership](https://substack.com/@deltasignalai/p-179433731)
+- Private `ATLAS-7` access is granted after the membership and GitHub handoff are completed
 
 ## Referral System
 

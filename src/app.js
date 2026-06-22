@@ -66,6 +66,11 @@ const changelogEntries = [
     title: "Landing page positioning strengthened",
     body: "Rewrote the public page headline, value proposition, who-it's-for copy, and member-benefit sections so the ATLAS-7 offer reads more clearly and more directly.",
   },
+  {
+    date: "2026-06-22",
+    title: "Scarcity framing added",
+    body: "Added limited-access messaging, a stronger Alpha CTA, and tighter selective-membership framing to the public landing page.",
+  },
 ];
 
 class AtlasSevenPublic extends LitElement {
@@ -697,10 +702,16 @@ class AtlasSevenPublic extends LitElement {
                   It was built for people who go deep. This public page shows the outline. The private repo holds the actual operating material.
                 </p>
                 <div class="cta-row">
-                  <a class="cta cta-primary" href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Join Alpha Circle</a>
+                  <a class="cta cta-primary" href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Secure Your Alpha Circle Membership</a>
                   <a class="cta cta-secondary" href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Try ATLAS Codex Public Page</a>
                   <a class="cta cta-secondary" href="https://github.com/aitrailblazer/ATLAS-7" target="_blank" rel="noreferrer">Private Repo Destination</a>
                 </div>
+                <p>
+                  <strong>Limited access:</strong> Alpha Circle membership is intentionally kept small for early supporters and serious practitioners.
+                </p>
+                <p>
+                  Access is granted selectively. If you want in, use the Alpha Circle join page and complete the GitHub handoff through Substack Chat.
+                </p>
                 <div class="join-strip">
                   <strong>How to join</strong>
                   <ul>
@@ -851,6 +862,23 @@ class AtlasSevenPublic extends LitElement {
         </section>
 
         <section id="referrals" class="section-grid">
+          <section class="panel">
+            <div class="label">Limited Access</div>
+            <h2>Alpha Circle is intentionally kept small</h2>
+            <p>
+              ATLAS-7 is not being opened broadly. Access is reserved for early supporters and serious practitioners who will actually use the system.
+            </p>
+            <ul class="list-tight">
+              <li>Membership is granted selectively</li>
+              <li>The public page is open, but the operating layer is private</li>
+              <li>The best fit is investors, analysts, founders, and builders who go deep</li>
+            </ul>
+            <div class="callout">
+              <strong>Inner-circle access</strong>
+              <span>Join Alpha Circle if you want the private repo, the deeper MCP operating layer, and the member-only playbooks behind DeltaSignal.</span>
+            </div>
+          </section>
+
           <section class="panel">
             <div class="label">Referral System</div>
             <h2>Bring in strong Alpha members, earn more MCP credit</h2>
