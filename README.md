@@ -58,7 +58,7 @@ Recommended flow:
 
 ## Repositories
 
-- Public landing page: [aitrailblazer/atlas-7-public](https://github.com/aitrailblazer/atlas-7-public)
+- Public landing page: [aitrailblazer/deltasignal-atlas-7](https://github.com/aitrailblazer/deltasignal-atlas-7)
 - Private member repo: [aitrailblazer/ATLAS-7](https://github.com/aitrailblazer/ATLAS-7)
 
 ## GitHub Pages
