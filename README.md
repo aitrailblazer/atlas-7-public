@@ -4,6 +4,10 @@ Public landing page for the private `ATLAS-7` Alpha repository.
 
 `ATLAS-7` is the private research and intelligence layer behind DeltaSignal. The public repo exists to explain what it is, who it is for, and how new members can get access to the private repository.
 
+## Public Changelog
+
+Recent public-facing updates are tracked in [CHANGELOG.md](CHANGELOG.md).
+
 ## What ATLAS-7 Includes
 
 - private prompting systems
