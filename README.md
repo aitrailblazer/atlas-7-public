@@ -30,6 +30,28 @@ This public repo also includes the current QA tracker outputs:
 - reusable templates for recurring analysis
 - member-only playbooks and diagrams
 
+## Alpha Circle
+
+Alpha Circle is the membership path behind this public repo.
+
+What it unlocks:
+
+- access to the private `ATLAS-7` repository
+- member-only playbooks, prompting systems, and MCP workflows
+- the deeper operating layer behind the public ATLAS Codex surface
+
+## MCP And ATLAS Codex
+
+The public ATLAS Codex page is the open MCP-facing surface:
+
+- [ATLAS Codex Public Page](https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/)
+
+The intended path is:
+
+1. inspect the public ATLAS Codex page
+2. join DeltaSignal / Alpha Circle
+3. receive private GitHub access to `ATLAS-7`
+
 ## Who It Is For
 
 - Alpha members
@@ -49,6 +71,19 @@ How to join:
 4. Open the private `ATLAS-7` repository on GitHub
 
 If you are already an Alpha member, skip straight to step 2.
+
+## Referral System
+
+The referral loop is for serious operators bringing in other serious operators.
+
+- referrals only count when the referred person becomes an Alpha Circle member
+- founding-member referrals can earn additional MCP credits
+- the best referrals are founders, investors, analysts, builders, and operators who will actually use the private repo and MCP workflows
+
+## Join Links
+
+- Join DeltaSignal: [deltasignal.substack.com](https://deltasignal.substack.com/)
+- Read the Alpha Circle note: [substack.com/@deltasignalai/p-179433731](https://substack.com/@deltasignalai/p-179433731)
 
 ## Private GitHub Access
 

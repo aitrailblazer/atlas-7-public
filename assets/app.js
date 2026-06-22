@@ -552,6 +552,11 @@ o4?.({ LitElement: i4 });
 var changelogEntries = [
   {
     date: "2026-06-22",
+    title: "Alpha Circle surface expanded",
+    body: "Added clearer Alpha membership, MCP, referral, and Substack join guidance so the public page explains the whole access path instead of only the repo unlock step."
+  },
+  {
+    date: "2026-06-22",
     title: "ATLAS Codex link promoted",
     body: "Added a stronger direct CTA to the public ATLAS Codex page in both the hero flow and the README so visitors can jump straight into the live public surface."
   },
@@ -968,6 +973,74 @@ var AtlasSevenPublic = class extends i4 {
       margin-top: 18px;
     }
 
+    .offer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .offer-card {
+      border: 1px solid rgba(255, 154, 26, 0.16);
+      border-radius: 18px;
+      padding: 16px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .offer-card strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 15px;
+      color: #ffe1c2;
+    }
+
+    .offer-card span {
+      color: #cbb9ae;
+      font-size: 14px;
+    }
+
+    .link-cluster {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .link-cluster a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      border: 1px solid rgba(255, 154, 26, 0.24);
+      border-radius: 999px;
+      padding: 0 14px;
+      background: rgba(255, 255, 255, 0.03);
+      color: #ffe1c2;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .link-cluster a:hover {
+      border-color: rgba(255, 154, 26, 0.72);
+      background: rgba(255, 154, 26, 0.12);
+    }
+
+    .callout {
+      margin-top: 16px;
+      border: 1px solid rgba(255, 154, 26, 0.2);
+      border-radius: 18px;
+      padding: 16px;
+      background: linear-gradient(180deg, rgba(255, 154, 26, 0.08), rgba(227, 0, 85, 0.06));
+    }
+
+    .callout strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #ffe1c2;
+      font-size: 15px;
+    }
+
     .label {
       color: #ffcc9d;
       text-transform: uppercase;
@@ -1154,6 +1227,9 @@ var AtlasSevenPublic = class extends i4 {
               <div class="toc-title">Contents</div>
               <div class="toc-links">
                 <a href="#what-you-get">What You Get</a>
+                <a href="#alpha-circle">Alpha Circle</a>
+                <a href="#referrals">Referral System</a>
+                <a href="#join-links">Join Links</a>
                 <a href="#access-flow">Access Flow</a>
                 <a href="#private-areas">Private Areas</a>
                 <a href="#public-changelog">Public Changelog</a>
@@ -1203,6 +1279,90 @@ var AtlasSevenPublic = class extends i4 {
           </article>
         </section>
 
+        <section id="alpha-circle" class="section-grid">
+          <section class="panel">
+            <div class="label">Alpha Circle</div>
+            <h2>What Alpha membership actually unlocks</h2>
+            <p>
+              The public page is the front door. Alpha Circle is the membership layer behind it.
+              That is how people unlock the private repo, the deeper MCP operating material, and the member-only playbooks.
+            </p>
+            <div class="offer-grid">
+              <div class="offer-card">
+                <strong>Private repo access</strong>
+                <span>ATLAS-7 playbooks, prompting systems, research frameworks, MCP guides, and member docs.</span>
+              </div>
+              <div class="offer-card">
+                <strong>MCP operating layer</strong>
+                <span>ATLAS Codex patterns, operator guidance, and examples for running the system inside agent-first tools.</span>
+              </div>
+              <div class="offer-card">
+                <strong>Member path</strong>
+                <span>Alpha Circle is the path that turns the public teaser surface into private GitHub access and ongoing updates.</span>
+              </div>
+            </div>
+            <div class="link-cluster">
+              <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">DeltaSignal Substack</a>
+              <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">ATLAS Codex Public Page</a>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="label">MCP</div>
+            <h2>Public page first, private workflows after</h2>
+            <p>
+              ATLAS Codex is the public-facing MCP surface. It shows the shape of the system in the open.
+              The private repo is where the deeper operating playbooks, prompts, and reusable workflows live.
+            </p>
+            <ul class="list-tight">
+              <li>Start with the public ATLAS Codex page to see the public-facing surface.</li>
+              <li>Join Alpha Circle when you want the private repo, playbooks, and member workflow layer.</li>
+              <li>Use the private repo as the operating manual behind the MCP surface, not as a marketing brochure.</li>
+            </ul>
+            <div class="callout">
+              <strong>Public first, private next</strong>
+              <span>The intended flow is: public ATLAS Codex page, DeltaSignal Substack, Alpha Circle membership, GitHub invite, private ATLAS-7 repo.</span>
+            </div>
+          </section>
+        </section>
+
+        <section id="referrals" class="section-grid">
+          <section class="panel">
+            <div class="label">Referral System</div>
+            <h2>Bring in strong Alpha members, earn more MCP credit</h2>
+            <p>
+              The referral loop is aimed at high-signal people who should already be in this world:
+              founders, investors, analysts, builders, and operators who would actually use Alpha Circle seriously.
+            </p>
+            <ul class="list-tight">
+              <li>Referrals only count when the referred person becomes an Alpha Circle member.</li>
+              <li>Founding-member referrals can earn additional MCP credits once the referred member joins.</li>
+              <li>The best referrals are people who will use the private repo, the MCP workflows, and the DeltaSignal research layer repeatedly.</li>
+            </ul>
+            <div class="callout">
+              <strong>Share with the right people</strong>
+              <span>This is not a mass-market membership flow. It converts best when one serious operator sends another serious operator.</span>
+            </div>
+          </section>
+
+          <section id="join-links" class="panel">
+            <div class="label">Join Alpha Circle</div>
+            <h2>Use these two links to start</h2>
+            <p>
+              If you want the fastest path into the system, use the Substack home page to subscribe and the announcement post to understand what the public surface is pointing toward.
+            </p>
+            <div class="link-cluster">
+              <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">Join via DeltaSignal Substack</a>
+              <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Read the Alpha Circle note</a>
+            </div>
+            <ul class="list-tight">
+              <li>Step 1: subscribe through DeltaSignal.</li>
+              <li>Step 2: send the GitHub username or email that should receive the private invite.</li>
+              <li>Step 3: accept the invitation and enter the private ATLAS-7 repo.</li>
+            </ul>
+          </section>
+        </section>
+
         <section class="section-grid">
           <div class="stack">
             <section id="access-flow" class="panel">
@@ -1215,6 +1375,12 @@ var AtlasSevenPublic = class extends i4 {
               <p>
                 Want to see the public-facing agent surface first?
                 <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Open the ATLAS Codex public page</a>.
+              </p>
+              <p>
+                Want the membership path itself?
+                <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">Join through DeltaSignal</a> and use the
+                <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Alpha Circle note</a>
+                if you want the public explanation first.
               </p>
               <ul class="list-tight">
                 <li>Join the DeltaSignal Alpha membership path.</li>

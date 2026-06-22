@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Expanded the public repo's Alpha Circle surface with clearer explanation of what membership unlocks, how the public MCP page relates to the private repo, the referral loop, and the exact Substack links to use when joining.
 - Added a stronger direct link to the public ATLAS Codex page in the hero CTA flow and README so visitors can jump straight to the live public surface.
 - Rebuilt the landing page as a bundled local Lit app for GitHub Pages so the public site keeps the Lit surface without depending on a fragile external module import.
 - Made the public join flow more explicit in both the landing page and README, with a direct three-step membership-to-GitHub path and an "already a member" shortcut.
