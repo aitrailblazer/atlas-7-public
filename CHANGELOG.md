@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Rebuilt the landing page as a bundled local Lit app for GitHub Pages so the public site keeps the Lit surface without depending on a fragile external module import.
 - Made the public join flow more explicit in both the landing page and README, with a direct three-step membership-to-GitHub path and an "already a member" shortcut.
 - Borrowed the ATLAS Codex front-page quick-link strip and contents-panel pattern so visitors can jump to core sections and see the supported agent surfaces more clearly.
 - Refreshed the public landing page to borrow the stronger visual direction from the public ATLAS Codex page: darker hero stage, sharper typography, brighter orange-to-magenta accents, and clearer CTA framing.
