@@ -14,6 +14,7 @@ This public repo also includes the current QA tracker outputs:
 
 - `feature_status_tracker.csv`
 - `feature_status_tracker.xlsx`
+- `feature_qa_report.md`
 
 ## What ATLAS-7 Includes
 
