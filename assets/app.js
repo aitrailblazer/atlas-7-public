@@ -609,6 +609,11 @@ var changelogEntries = [
     date: "2026-06-22",
     title: "Private GitHub access path clarified",
     body: "Documented the exact join, invite, and acceptance flow for getting into the private ATLAS-7 repository."
+  },
+  {
+    date: "2026-06-22",
+    title: "Landing page positioning strengthened",
+    body: "Rewrote the public page headline, value proposition, who-it's-for copy, and member-benefit sections so the ATLAS-7 offer reads more clearly and more directly."
   }
 ];
 var AtlasSevenPublic = class extends i4 {
@@ -1225,14 +1230,14 @@ var AtlasSevenPublic = class extends i4 {
             <div class="hero-layout">
               <div class="hero-copy">
                 <div class="eyebrow">Private repo. Public front door.</div>
-                <h1>ATLAS-7 for serious operators, not tourists.</h1>
-                <p class="tagline">The private repo behind DeltaSignal.</p>
+                <h1>ATLAS-7 is the private intelligence layer behind DeltaSignal.</h1>
+                <p class="tagline">Exclusive access for serious investors, founders, analysts, and builders.</p>
                 <p>
-                  ATLAS-7 is where the deeper prompting systems, playbooks, MCP workflows, and operator docs live.
-                  This public page is the teaser surface: enough to show the shape of the system, not the private internals.
+                  ATLAS-7 combines curated knowledge, high-signal prompting systems, reusable playbooks,
+                  and the deeper MCP operating layer behind the public ATLAS Codex surface.
                 </p>
                 <p>
-                  If you want the actual operating materials, the path is public page to private GitHub access through DeltaSignal Alpha.
+                  It was built for people who go deep. This public page shows the outline. The private repo holds the actual operating material.
                 </p>
                 <div class="cta-row">
                   <a class="cta cta-primary" href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Join Alpha Circle</a>
@@ -1301,41 +1306,42 @@ var AtlasSevenPublic = class extends i4 {
 
         <section id="what-you-get" class="card-grid">
           <article class="card">
-            <div class="label">What You Get</div>
-            <h3>Private operating material</h3>
+            <div class="label">What Is ATLAS-7</div>
+            <h3>Private research engine</h3>
             <p>
-              The private repo is built for repeatability, not browsing: prompts, frameworks, playbooks, and real workflow structure.
+              ATLAS-7 is DeltaSignal's advanced research engine: private prompting systems, curated workflows,
+              operator playbooks, and MCP-specific guidance designed for repeatable serious work.
             </p>
             <ul class="list-tight">
-              <li>Prompt libraries and structured frameworks</li>
+              <li>Curated knowledge and structured frameworks</li>
               <li>Playbooks with copy-ready prompts and diagrams</li>
-              <li>MCP-specific usage patterns and examples</li>
+              <li>MCP workflows, patterns, and operator examples</li>
             </ul>
           </article>
 
           <article class="card">
             <div class="label">Who It Is For</div>
-            <h3>Alpha-level users</h3>
+            <h3>People who go deep</h3>
             <p>
-              Investors, analysts, founders, and advanced AI-tool operators who care about process quality, not novelty for its own sake.
+              ATLAS-7 is built for operators who need depth, process, and signal quality instead of generic AI output.
             </p>
             <ul class="list-tight">
-              <li>Professional investors</li>
-              <li>Independent analysts</li>
-              <li>Builders who already work inside modern agent tooling</li>
+              <li>Professional investors and fund managers</li>
+              <li>Independent analysts and researchers</li>
+              <li>Founders, operators, and advanced AI-tool builders</li>
             </ul>
           </article>
 
           <article class="card">
-            <div class="label">Access Path</div>
-            <h3>Public to private</h3>
+            <div class="label">Alpha Member Access</div>
+            <h3>What membership unlocks</h3>
             <p>
-              The public repo explains the offer and shows recent updates. The private repo is granted after membership confirmation.
+              Alpha membership turns the public teaser surface into private GitHub access and the deeper operating layer behind it.
             </p>
             <ul class="list-tight">
-              <li>Join DeltaSignal Alpha</li>
-              <li>Send your GitHub username or account email</li>
-              <li>Accept the invite and enter the private repo</li>
+              <li>Private ATLAS-7 GitHub repository access</li>
+              <li>Advanced prompting frameworks and playbooks</li>
+              <li>MCP-specific workflows and reusable deep-dive templates</li>
             </ul>
           </article>
         </section>
@@ -1345,21 +1351,21 @@ var AtlasSevenPublic = class extends i4 {
             <div class="label">Alpha Circle</div>
             <h2>What Alpha membership actually unlocks</h2>
             <p>
-              The public page is the front door. Alpha Circle is the membership layer behind it.
-              That is how people unlock the private repo, the deeper MCP operating material, and the member-only playbooks.
+              The public page is the front door. Alpha Circle is the private layer behind it:
+              the repo, the prompting systems, the reusable research workflows, and the member-only playbooks.
             </p>
             <div class="offer-grid">
               <div class="offer-card">
                 <strong>Private repo access</strong>
-                <span>ATLAS-7 playbooks, prompting systems, research frameworks, MCP guides, and member docs.</span>
+                <span>Full access to ATLAS-7 playbooks, prompting systems, research frameworks, MCP guides, and member docs.</span>
+              </div>
+              <div class="offer-card">
+                <strong>Prompting and workflows</strong>
+                <span>Advanced prompting frameworks, deep-dive templates, and reusable research workflows built for repeat use.</span>
               </div>
               <div class="offer-card">
                 <strong>MCP operating layer</strong>
                 <span>ATLAS Codex patterns, operator guidance, and examples for running the system inside agent-first tools.</span>
-              </div>
-              <div class="offer-card">
-                <strong>Member path</strong>
-                <span>Alpha Circle is the path that turns the public teaser surface into private GitHub access and ongoing updates.</span>
               </div>
             </div>
             <div class="link-cluster">
@@ -1373,16 +1379,16 @@ var AtlasSevenPublic = class extends i4 {
             <h2>Public page first, private workflows after</h2>
             <p>
               ATLAS Codex is the public-facing MCP surface. It shows the shape of the system in the open.
-              The private repo is where the deeper operating playbooks, prompts, and reusable workflows live.
+              The private repo is where the deeper operator playbooks, prompting systems, and reusable workflows live.
             </p>
             <ul class="list-tight">
               <li>Start with the public ATLAS Codex page to see the public-facing surface.</li>
-              <li>Join Alpha Circle when you want the private repo, playbooks, and member workflow layer.</li>
+              <li>Join Alpha Circle when you want the private repo, playbooks, and advanced workflow layer.</li>
               <li>Use the private repo as the operating manual behind the MCP surface, not as a marketing brochure.</li>
             </ul>
             <div class="callout">
               <strong>Public first, private next</strong>
-              <span>The intended flow is: public ATLAS Codex page, Alpha Circle join page, GitHub handoff, private invite, private ATLAS-7 repo.</span>
+              <span>The intended flow is: public ATLAS Codex page, Alpha Circle join guide, GitHub handoff, private invite, private ATLAS-7 repo.</span>
             </div>
           </section>
         </section>
@@ -1410,7 +1416,7 @@ var AtlasSevenPublic = class extends i4 {
             <div class="label">Join Alpha Circle</div>
             <h2>Use these two links to start</h2>
             <p>
-              If you want the fastest path into the system, start with the Alpha Circle join page you specified, then use the X or Substack DM handoff so the GitHub invite goes to the right account.
+              If you want the fastest path into the system, start with the Alpha Circle join page, then use the Substack Chat handoff so the GitHub invite goes to the right account.
             </p>
             <div class="link-cluster">
               <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a>
@@ -1430,7 +1436,7 @@ var AtlasSevenPublic = class extends i4 {
               <div class="label">Private GitHub Access</div>
               <h2>How the repo unlock works</h2>
               <p>
-                The path is simple: membership first, GitHub handoff second, invite acceptance third.
+                The path is simple: join Alpha Circle, send your GitHub details through Substack Chat, then accept the invite.
                 If you are already an Alpha member, you only need to send your GitHub username or GitHub account email through Substack Chat to receive the invite.
               </p>
               <p>

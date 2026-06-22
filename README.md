@@ -1,8 +1,8 @@
 # ATLAS-7
 
-Public landing page for the private `ATLAS-7` Alpha repository.
+**The private research and intelligence system behind DeltaSignal.**
 
-`ATLAS-7` is the private research and intelligence layer behind DeltaSignal. The public repo exists to explain what it is, who it is for, and how new members can get access to the private repository.
+Public landing page for the private `ATLAS-7` Alpha repository. This repo explains what ATLAS-7 is, who it is for, and how new members get access to the private GitHub repository.
 
 ## Public Changelog
 
@@ -22,6 +22,10 @@ This public repo also includes the current QA tracker outputs:
 - `feature_status_tracker.xlsx`
 - `feature_qa_report.md`
 
+## What Is ATLAS-7
+
+ATLAS-7 is DeltaSignal's advanced research engine: curated knowledge, high-signal prompting systems, structured playbooks, and the deeper MCP operating layer behind the public ATLAS Codex surface.
+
 ## What ATLAS-7 Includes
 
 - private prompting systems
@@ -39,6 +43,7 @@ What it unlocks:
 - access to the private `ATLAS-7` repository
 - member-only playbooks, prompting systems, and MCP workflows
 - the deeper operating layer behind the public ATLAS Codex surface
+- advanced deep-dive templates and repeatable research frameworks
 
 ## MCP And ATLAS Codex
 
@@ -54,10 +59,10 @@ The intended path is:
 
 ## Who It Is For
 
-- Alpha members
-- independent analysts
-- professional investors
-- founders and operators who use modern AI tooling seriously
+- professional investors and fund managers
+- independent analysts and researchers
+- founders and operators tracking markets
+- power users of Claude, Cursor, Grok, Codex, and similar AI tooling
 
 ## Access
 

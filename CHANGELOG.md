@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Strengthened the public landing-page positioning with a clearer headline, tighter value proposition, stronger who-it's-for framing, and more specific Alpha-member benefits.
 - Wired the Contents links to explicit in-component scrolling so they land on the intended section headings inside the Lit page.
 - Corrected the hero access-step wording so the Alpha Circle note is described as the join guide rather than the membership gateway itself.
 - Removed the X DM option from the public access handoff and left Substack Chat as the only GitHub-details path.
