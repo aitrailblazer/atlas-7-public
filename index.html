@@ -40,6 +40,11 @@
     const changelogEntries = [
       {
         date: '2026-06-22',
+        title: 'Borrowed ATLAS quick-link patterns',
+        body: 'Added the agent-surface quick links and a contents panel so the public page feels closer to the ATLAS Codex front-page navigation style.',
+      },
+      {
+        date: '2026-06-22',
         title: 'Public landing page refreshed',
         body: 'Borrowed the stronger ATLAS Codex visual direction for the hero, message hierarchy, and CTA framing. Added a public changelog section and file.',
       },
@@ -247,6 +252,72 @@
           flex-wrap: wrap;
           gap: 12px;
           margin-top: 22px;
+        }
+
+        .agent-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin: 18px 0 0;
+        }
+
+        .agent-links a {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 38px;
+          border: 1px solid rgba(255, 154, 26, 0.34);
+          border-radius: 999px;
+          padding: 0 14px;
+          color: #ffddb8;
+          background: rgba(17, 16, 15, 0.54);
+          font-size: 13px;
+          font-weight: 800;
+          text-decoration: none;
+        }
+
+        .agent-links a:hover {
+          border-color: rgba(255, 154, 26, 0.72);
+          background: rgba(255, 154, 26, 0.12);
+        }
+
+        .toc-panel {
+          margin-top: 18px;
+          border: 1px solid rgba(255, 154, 26, 0.22);
+          border-radius: 22px;
+          padding: 18px;
+          background: rgba(17, 16, 15, 0.66);
+        }
+
+        .toc-title {
+          color: #ffd1a3;
+          font-family: "Space Grotesk", "Inter", sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+        }
+
+        .toc-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 14px;
+        }
+
+        .toc-links a {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 40px;
+          border: 1px solid rgba(255, 154, 26, 0.22);
+          border-radius: 999px;
+          padding: 0 14px;
+          color: #f7e1cb;
+          background: rgba(255, 255, 255, 0.03);
+          font-size: 13px;
+          font-weight: 700;
+          text-decoration: none;
         }
 
         .cta-primary {
@@ -482,6 +553,12 @@
                       <a class="cta cta-primary" href="https://deltasignal.substack.com" target="_blank" rel="noreferrer">Join DeltaSignal Alpha</a>
                       <a class="cta cta-secondary" href="https://github.com/aitrailblazer/ATLAS-7" target="_blank" rel="noreferrer">Private Repo Destination</a>
                     </div>
+                    <div class="agent-links">
+                      <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Claude Code</a>
+                      <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Codex</a>
+                      <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Cursor</a>
+                      <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Grok Build</a>
+                    </div>
                   </div>
 
                   <aside class="hero-panel">
@@ -502,10 +579,19 @@
                     </div>
                   </aside>
                 </div>
+                <div class="toc-panel">
+                  <div class="toc-title">Contents</div>
+                  <div class="toc-links">
+                    <a href="#what-you-get">What You Get</a>
+                    <a href="#access-flow">Access Flow</a>
+                    <a href="#private-areas">Private Areas</a>
+                    <a href="#public-changelog">Public Changelog</a>
+                  </div>
+                </div>
               </div>
             </section>
 
-            <section class="card-grid">
+            <section id="what-you-get" class="card-grid">
               <article class="card">
                 <div class="label">What You Get</div>
                 <h3>Private operating material</h3>
@@ -548,7 +634,7 @@
 
             <section class="section-grid">
               <div class="stack">
-                <section class="panel">
+                <section id="access-flow" class="panel">
                   <div class="label">Private GitHub Access</div>
                   <h2>How the repo unlock works</h2>
                   <ul class="list-tight">
@@ -559,7 +645,7 @@
                   </ul>
                 </section>
 
-                <section class="panel">
+                <section id="private-areas" class="panel">
                   <div class="label">Current Private Areas</div>
                   <h2>What is currently inside</h2>
                   <ul class="list-tight">
@@ -571,7 +657,7 @@
                 </section>
               </div>
 
-              <section class="panel">
+              <section id="public-changelog" class="panel">
                 <div class="label">Public Changelog</div>
                 <h2>Recent changes</h2>
                 <div class="timeline">

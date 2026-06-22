@@ -4,11 +4,11 @@ Tracker source: `feature_status_tracker.csv`
 
 ## Totals
 
-- Total features discovered: 10
-- Total verified before fixes: 10
+- Total features discovered: 12
+- Total verified before fixes: 12
 - Total failed before fixes: 0
 - Total fixed: 0
-- Total verified after retest: 10
+- Total verified after retest: 12
 - Total still blocked: 0
 - Total needing product decision: 0
 

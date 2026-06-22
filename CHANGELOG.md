@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Borrowed the ATLAS Codex front-page quick-link strip and contents-panel pattern so visitors can jump to core sections and see the supported agent surfaces more clearly.
 - Refreshed the public landing page to borrow the stronger visual direction from the public ATLAS Codex page: darker hero stage, sharper typography, brighter orange-to-magenta accents, and clearer CTA framing.
 - Added a first-class public changelog surface on the front page and this dedicated `CHANGELOG.md` file.
 - Clarified the public-to-private access path for joining DeltaSignal Alpha and receiving the private GitHub invitation.
