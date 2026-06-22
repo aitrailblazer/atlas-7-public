@@ -2,6 +2,7 @@
 
 ## 2026-06-22
 
+- Switched the public repo's main Alpha path back to the exact Alpha Circle note URL provided by the operator.
 - Restored the main Alpha join path to the real DeltaSignal subscribe page and kept the Alpha Circle note as a secondary explainer link.
 - Retargeted the public repo's main Alpha join link to the dedicated Alpha Circle note so visitors land on the exact how-to-join page instead of the broader Substack home page.
 - Added [X @AITrailblazerQ](https://x.com/AITrailblazerQ) as an additional DM path for sending GitHub details when requesting private ATLAS-7 access.
