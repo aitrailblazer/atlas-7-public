@@ -562,6 +562,11 @@ var changelogEntries = [
   },
   {
     date: "2026-06-22",
+    title: "Subscribe path restored",
+    body: "Changed the main Alpha join path to DeltaSignal's actual Substack subscribe page and kept the Alpha Circle note as supporting context."
+  },
+  {
+    date: "2026-06-22",
     title: "Alpha Circle surface expanded",
     body: "Added clearer Alpha membership, MCP, referral, and Substack join guidance so the public page explains the whole access path instead of only the repo unlock step."
   },
@@ -1202,14 +1207,15 @@ var AtlasSevenPublic = class extends i4 {
                   If you want the actual operating materials, the path is public page to private GitHub access through DeltaSignal Alpha.
                 </p>
                 <div class="cta-row">
-                  <a class="cta cta-primary" href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How To Join Alpha Circle</a>
+                  <a class="cta cta-primary" href="https://deltasignal.substack.com/subscribe" target="_blank" rel="noreferrer">Subscribe To Join Alpha</a>
                   <a class="cta cta-secondary" href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">Try ATLAS Codex Public Page</a>
                   <a class="cta cta-secondary" href="https://github.com/aitrailblazer/ATLAS-7" target="_blank" rel="noreferrer">Private Repo Destination</a>
                 </div>
                 <div class="join-strip">
                   <strong>How to join</strong>
                   <ul>
-                    <li>Join Alpha: <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a></li>
+                    <li>Join Alpha: <a href="https://deltasignal.substack.com/subscribe" target="_blank" rel="noreferrer">DeltaSignal subscribe page</a></li>
+                    <li>Need context first? Read <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a>.</li>
                     <li>Send a DM on <a href="https://substack.com/chat" target="_blank" rel="noreferrer">Substack Chat</a> or <a href="https://x.com/AITrailblazerQ" target="_blank" rel="noreferrer">X @AITrailblazerQ</a> with your GitHub username or the email attached to your GitHub account.</li>
                     <li>Accept the invitation to the private ATLAS-7 repo when it arrives.</li>
                   </ul>
@@ -1228,8 +1234,8 @@ var AtlasSevenPublic = class extends i4 {
                   <div class="join-step">
                     <div class="join-step-number">1</div>
                     <div>
-                      <strong>Open the Alpha Circle join guide</strong>
-                      <span>Start with the dedicated Alpha Circle note. That is the clearest entry point for the private repo access flow.</span>
+                      <strong>Subscribe to DeltaSignal Alpha</strong>
+                      <span>Start with the actual Substack subscribe page. Use the Alpha Circle note if you want the explainer first.</span>
                     </div>
                   </div>
                   <div class="join-step">
@@ -1330,7 +1336,7 @@ var AtlasSevenPublic = class extends i4 {
               </div>
             </div>
             <div class="link-cluster">
-              <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a>
+              <a href="https://deltasignal.substack.com/subscribe" target="_blank" rel="noreferrer">Subscribe to DeltaSignal Alpha</a>
               <a href="https://aitrailblazer.github.io/deltasignal-atlas-codex-plugin/" target="_blank" rel="noreferrer">ATLAS Codex Public Page</a>
             </div>
           </section>
@@ -1349,7 +1355,7 @@ var AtlasSevenPublic = class extends i4 {
             </ul>
             <div class="callout">
               <strong>Public first, private next</strong>
-              <span>The intended flow is: public ATLAS Codex page, Alpha Circle join guide, GitHub handoff, private invite, private ATLAS-7 repo.</span>
+              <span>The intended flow is: public ATLAS Codex page, DeltaSignal subscribe page, GitHub handoff, private invite, private ATLAS-7 repo.</span>
             </div>
           </section>
         </section>
@@ -1377,15 +1383,15 @@ var AtlasSevenPublic = class extends i4 {
             <div class="label">Join Alpha Circle</div>
             <h2>Use these two links to start</h2>
             <p>
-              If you want the fastest path into the system, start with the Alpha Circle join guide, then use the X or Substack DM handoff so the GitHub invite goes to the right account.
+              If you want the fastest path into the system, start with the actual DeltaSignal subscribe page, then use the X or Substack DM handoff so the GitHub invite goes to the right account.
             </p>
             <div class="link-cluster">
+              <a href="https://deltasignal.substack.com/subscribe" target="_blank" rel="noreferrer">Subscribe to DeltaSignal Alpha</a>
               <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a>
-              <a href="https://deltasignal.substack.com/" target="_blank" rel="noreferrer">DeltaSignal Substack</a>
               <a href="https://x.com/AITrailblazerQ" target="_blank" rel="noreferrer">Message @AITrailblazerQ on X</a>
             </div>
             <ul class="list-tight">
-              <li>Step 1: open the Alpha Circle join guide and use that path to join.</li>
+              <li>Step 1: open the DeltaSignal subscribe page and complete the Alpha membership signup.</li>
               <li>Step 2: send a Substack Chat DM or an X DM to @AITrailblazerQ with the GitHub username or email that should receive the private invite.</li>
               <li>Step 3: accept the invitation and enter the private ATLAS-7 repo.</li>
             </ul>
@@ -1407,11 +1413,12 @@ var AtlasSevenPublic = class extends i4 {
               </p>
               <p>
                 Want the membership path itself?
-                <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">Open the Alpha Circle join guide</a>
+                <a href="https://deltasignal.substack.com/subscribe" target="_blank" rel="noreferrer">Open the DeltaSignal subscribe page</a>
                 first, then send your GitHub details so the private invite goes to the right account.
               </p>
               <ul class="list-tight">
-                <li>Join Alpha here: <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a>.</li>
+                <li>Join Alpha here: <a href="https://deltasignal.substack.com/subscribe" target="_blank" rel="noreferrer">DeltaSignal subscribe page</a>.</li>
+                <li>Read the explainer here: <a href="https://substack.com/@deltasignalai/p-179433731" target="_blank" rel="noreferrer">How to join Alpha Circle</a>.</li>
                 <li>Send a Substack Chat DM or an X DM to <a href="https://x.com/AITrailblazerQ" target="_blank" rel="noreferrer">@AITrailblazerQ</a> with the GitHub username or email attached to the account that should receive access.</li>
                 <li>Receive the GitHub invitation for the private repo.</li>
                 <li>Accept the invitation and open ATLAS-7.</li>
